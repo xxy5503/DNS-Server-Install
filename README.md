@@ -15,7 +15,7 @@
 首先，使用 `git clone` 命令将此项目下载到本地：
 
 ```bash
-git clone https://xxx.git
+git clone [https://xxx.git](https://github.com/xxy5503/DNS-Server-Install.git)
 ```
 
 ### 2. 进入项目目录
@@ -49,7 +49,9 @@ chmod +x install-dns
 ## 配置说明
 
 - 脚本将自动安装所需的依赖，并配置 DNS 服务器。
-- 初始化时，您将被要求设置一些基本参数，如 IP 地址、DNS 服务名称等。
+- 初始化时，您将被要求设置一些基本参数，如内网DNS IP 地址、国内DNS IP 地址、内网域名等。
+
+![image](https://github.com/xxy5503/DNS-Server-Install/blob/main/img/edit_dns.png)
 
 ## 常见问题
 
@@ -59,7 +61,7 @@ A: 请确保使用 `sudo` 命令运行脚本或以 root 用户身份执行安装
 
 ### Q: 如何卸载 DNS 服务器？
 
-A: 卸载步骤将在脚本中提供，您可以按照提示进行操作，或手动删除安装的文件。
+A: **WIP**
 
 ## 许可证
 
