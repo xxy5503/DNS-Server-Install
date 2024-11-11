@@ -15,7 +15,7 @@
 首先，使用 `git clone` 命令将此项目下载到本地：
 
 ```bash
-git clone [https://xxx.git](https://github.com/xxy5503/DNS-Server-Install.git)
+git clone https://github.com/xxy5503/DNS-Server-Install.git
 ```
 
 ### 2. 进入项目目录
